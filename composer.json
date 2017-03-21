@@ -1,0 +1,23 @@
+{
+    "name": "caugner/kabelboxer",
+    "type": "library",
+    "description": "KabelBoxer is a PHP client for Compal cable modems",
+    "homepage": "https://github.com/caugner/kabelboxer",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Claas Augner",
+        "email": "github@caugner.de",
+        "homepage": "https://github.com/caugner"
+      }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "KabelBoxer\\": "src/",
+        "KabelBoxer\\Tests\\": "tests/"
+      }
+    }
+}
