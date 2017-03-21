@@ -28,7 +28,7 @@ Finally, you can use the KabelBoxer client:
 ```php
 $client = new KabelBoxer\Client();
 $client->login('admin', 'password');
-$client->restart;
+$client->restart();
 ```
 
 ## Supported Models
