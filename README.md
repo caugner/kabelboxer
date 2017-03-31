@@ -3,6 +3,8 @@ KabelBoxer, PHP Client for Compal cable modems
 
 KabelBoxer is a PHP Client for Compal cable modems.
 
+[![Build Status](https://travis-ci.org/caugner/kabelboxer.svg?branch=master)](https://travis-ci.org/caugner/kabelboxer)
+
 ## Usage
 
 First, install [Composer](http://getcomposer.org/).
