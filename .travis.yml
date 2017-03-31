@@ -12,3 +12,6 @@ install: travis_retry composer install --no-interaction --prefer-source
 
 script: vendor/bin/phpunit
 
+addons:
+    code_climate:
+        repo_token: 5d0e18213584d9972d1c359eca47cdb8a60da3ee9519a22b529ba6891553
