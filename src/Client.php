@@ -27,7 +27,7 @@ class Client {
     }
   }
 
-  public function login(string $username, string $password) {
+  public function login($username, $password) {
     $token = $this->getToken();
     $response = $this->setter([
       'token' => $token,
@@ -56,7 +56,7 @@ class Client {
     return $xml->Token;
   }
 
-  private function getter(array $params) {
+  private function getter($params) {
     $client = $this->createClient();
     $response = $client->request('POST', '/xml/getter.xml', [
       'form_params' => $params
@@ -64,7 +64,7 @@ class Client {
     return $response;
   }
 
-  private function setter(array $params) {
+  private function setter($params) {
     $client = $this->createClient();
     $response = $client->request('POST', '/xml/setter.xml', [
       'form_params' => $params
