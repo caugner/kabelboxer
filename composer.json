@@ -1,5 +1,5 @@
 {
-    "name": "caugner/kabelboxer",
+    "name": "claas/kabelboxer",
     "type": "library",
     "description": "KabelBoxer is a PHP client for Compal cable modems",
     "homepage": "https://github.com/caugner/kabelboxer",
